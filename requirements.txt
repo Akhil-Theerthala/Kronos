@@ -1,18 +1,23 @@
-click==6.7
-cycler==0.10.0
-Flask==1.0.2
-gunicorn==19.9.0
-itsdangerous==0.24
-Jinja2==2.11.3
-kiwisolver==1.0.1
-MarkupSafe==1.0
-matplotlib==2.2.2
-numpy==1.14.5
-pyparsing==2.2.0
-python-dateutil==2.7.3
-pytz==2018.5
-regex==2018.7.11
-six==1.11.0
-tqdm==4.23.4
-urllib3==1.24.2
-Werkzeug==0.15.3
+beautifulsoup4 @ file:///C:/ci/beautifulsoup4_1650293028159/work
+brotlipy==0.7.0
+certifi @ file:///C:/Windows/TEMP/abs_e9b7158a-aa56-4a5b-87b6-c00d295b01fanefpc8_o/croots/recipe/certifi_1655968940823/work/certifi
+cffi @ file:///C:/ci_310/cffi_1643036627027/work
+charset-normalizer @ file:///tmp/build/80754af9/charset-normalizer_1630003229654/work
+click @ file:///C:/ci/click_1646056762388/work
+colorama @ file:///C:/Windows/TEMP/abs_9439aeb1-0254-449a-96f7-33ab5eb17fc8apleb4yn/croots/recipe/colorama_1657009099097/work
+cryptography @ file:///C:/ci/cryptography_1652101729823/work
+Flask @ file:///opt/conda/conda-bld/flask_1648041541647/work
+idna @ file:///tmp/build/80754af9/idna_1637925883363/work
+itsdangerous @ file:///tmp/build/80754af9/itsdangerous_1621432558163/work
+Jinja2 @ file:///opt/conda/conda-bld/jinja2_1647436528585/work
+MarkupSafe @ file:///C:/ci/markupsafe_1654508036328/work
+pycparser @ file:///tmp/build/80754af9/pycparser_1636541352034/work
+pyOpenSSL @ file:///opt/conda/conda-bld/pyopenssl_1643788558760/work
+PySocks @ file:///C:/ci_310/pysocks_1642089375450/work
+requests @ file:///C:/ci/requests_1657735340829/work
+soupsieve @ file:///tmp/build/80754af9/soupsieve_1636706018808/work
+tqdm @ file:///C:/ci/tqdm_1650618044857/work
+urllib3 @ file:///C:/ci/urllib3_1650621844306/work
+Werkzeug @ file:///opt/conda/conda-bld/werkzeug_1645628268370/work
+win-inet-pton @ file:///C:/ci_310/win_inet_pton_1642658466512/work
+wincertstore==0.2

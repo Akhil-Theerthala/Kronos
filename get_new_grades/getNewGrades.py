@@ -3,11 +3,12 @@ import re
 import json
 from tqdm import tqdm
 import threading
-import urllib2
+import urllib
+from urllib.request import build_opener
 import os
 import sys
 sys.path.insert(0, 'Grades/')
-from AddGradesYearly import read_file
+from data.Grades.AddGradesYearly import read_file
 
 cookie = '092F0250D00A42ADEB77AB5F5ACCC0BD.worker2'
 NUM_THREADS = 1
@@ -29,7 +30,7 @@ def save(dic, name):
     with open(os.getcwd() + '/Grades/past_records/' + name + ".json", "w") as outfile:
         json.dump(dic, outfile)
 
-opener = urllib2.build_opener()
+opener = build_opener()
 opener.addheaders.append(('Cookie', 'JSESSIONID={}'.format(cookie)))
         
 def getGrades(code):

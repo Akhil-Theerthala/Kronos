@@ -10,7 +10,7 @@ data = json.load(jsonFile)
 jsonFile.close()
 courses = []
 
-with open("data/courses.json","r") as f:
+with open("data/courses.json","r", encoding='utf-8') as f:
     courses_having_data = json.load(f)
     for key in data:
         string = ""
